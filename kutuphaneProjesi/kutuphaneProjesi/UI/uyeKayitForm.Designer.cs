@@ -42,27 +42,34 @@
             // lblTc
             // 
             lblTc.AutoSize = true;
-            lblTc.Location = new Point(258, 65);
+            lblTc.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold);
+            lblTc.ForeColor = Color.MidnightBlue;
+            lblTc.Location = new Point(314, 64);
             lblTc.Name = "lblTc";
-            lblTc.Size = new Size(21, 20);
+            lblTc.Size = new Size(28, 25);
             lblTc.TabIndex = 0;
             lblTc.Text = "tc";
+            lblTc.Click += lblTc_Click;
             // 
             // lblAdSoyad
             // 
             lblAdSoyad.AutoSize = true;
-            lblAdSoyad.Location = new Point(258, 120);
+            lblAdSoyad.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold);
+            lblAdSoyad.ForeColor = Color.MidnightBlue;
+            lblAdSoyad.Location = new Point(254, 119);
             lblAdSoyad.Name = "lblAdSoyad";
-            lblAdSoyad.Size = new Size(69, 20);
+            lblAdSoyad.Size = new Size(88, 25);
             lblAdSoyad.TabIndex = 1;
             lblAdSoyad.Text = "ad soyad";
             // 
             // lblSifre
             // 
             lblSifre.AutoSize = true;
-            lblSifre.Location = new Point(258, 197);
+            lblSifre.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold);
+            lblSifre.ForeColor = Color.MidnightBlue;
+            lblSifre.Location = new Point(293, 181);
             lblSifre.Name = "lblSifre";
-            lblSifre.Size = new Size(37, 20);
+            lblSifre.Size = new Size(49, 25);
             lblSifre.TabIndex = 2;
             lblSifre.Text = "şifre";
             // 
@@ -82,35 +89,39 @@
             // 
             // txtSifre
             // 
-            txtSifre.Location = new Point(361, 190);
+            txtSifre.Location = new Point(361, 182);
             txtSifre.Name = "txtSifre";
             txtSifre.Size = new Size(125, 27);
             txtSifre.TabIndex = 5;
             // 
             // txtSifreTekrar
             // 
-            txtSifreTekrar.Location = new Point(361, 253);
+            txtSifreTekrar.Location = new Point(361, 245);
             txtSifreTekrar.Name = "txtSifreTekrar";
-            txtSifreTekrar.Size = new Size(120, 27);
+            txtSifreTekrar.Size = new Size(125, 27);
             txtSifreTekrar.TabIndex = 6;
             // 
             // lblSifreTekrar
             // 
             lblSifreTekrar.AutoSize = true;
-            lblSifreTekrar.Location = new Point(258, 260);
+            lblSifreTekrar.Font = new Font("Segoe UI", 10.8F, FontStyle.Bold);
+            lblSifreTekrar.ForeColor = Color.MidnightBlue;
+            lblSifreTekrar.Location = new Point(223, 244);
             lblSifreTekrar.Name = "lblSifreTekrar";
-            lblSifreTekrar.Size = new Size(89, 20);
+            lblSifreTekrar.Size = new Size(119, 25);
             lblSifreTekrar.TabIndex = 7;
             lblSifreTekrar.Text = "şifre (tekrar)";
             // 
             // btnKaydet
             // 
-            btnKaydet.BackColor = Color.FromArgb(128, 255, 128);
-            btnKaydet.Location = new Point(305, 335);
+            btnKaydet.BackColor = SystemColors.ButtonFace;
+            btnKaydet.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btnKaydet.ForeColor = SystemColors.HotTrack;
+            btnKaydet.Location = new Point(314, 317);
             btnKaydet.Name = "btnKaydet";
-            btnKaydet.Size = new Size(94, 29);
+            btnKaydet.Size = new Size(98, 36);
             btnKaydet.TabIndex = 8;
-            btnKaydet.Text = "üye ol ";
+            btnKaydet.Text = "ÜYE OL";
             btnKaydet.UseVisualStyleBackColor = false;
             btnKaydet.Click += btnKaydet_Click;
             // 
@@ -118,7 +129,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
+            BackColor = Color.FromArgb(188, 189, 203);
             ClientSize = new Size(800, 450);
             Controls.Add(btnKaydet);
             Controls.Add(lblSifreTekrar);

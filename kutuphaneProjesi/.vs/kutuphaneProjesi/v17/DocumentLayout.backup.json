@@ -3,48 +3,32 @@
   "WorkspaceRootPath": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\kitaplarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\dal\\islemlerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\dal\\islemlerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\uyepanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyepanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\islemlerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\islemlerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\dal\\uyepaneldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\dal\\uyepaneldal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\dal\\uyelerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -59,12 +43,12 @@
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\dal\\istatistikdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\dal\\islemlerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\dal\\islemlerdal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\dal\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\dal\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\bll\\uyepanelbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\bll\\uyepanelbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\bll\\uyelerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -79,64 +63,92 @@
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\bll\\islemlerbll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyepanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyepanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyepanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyepanelform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\yonetimform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\yonetimform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitapekleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitapekleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitapekleform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyelerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyelerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyelerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\istatistikform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\istatistikform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\istatistikform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\islemlerform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitaplarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitaplarform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitaplarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\kitaplarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\yonetimform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyekayitform.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\islemlerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\islemlerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\uyelerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\uyelerform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitaplarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\yonetimform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\yonetimform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitapekleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitapekleform.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|c:\\users\\lenovo\\desktop\\oop_proje\\kutuphaneprojesi\\kutuphaneprojesi\\ui\\kitaplarform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}",
+      "RelativeMoniker": "D:0:0:{1365F14D-5A93-4391-A54B-7EB34E4AA00D}|kutuphaneProjesi\\kutuphaneProjesi.csproj|solutionrelative:kutuphaneprojesi\\ui\\kitaplarform.resx||{81828910-B8B3-4D2B-99A3-067027C180C1}"
     }
   ],
   "DocumentGroupContainers": [
@@ -146,43 +158,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "kitapEkleForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitapEkleForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitapEkleForm.cs [Tasar\u0131m]",
+              "Title": "UyelerForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyelerForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyelerForm.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAHAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T00:12:04.786Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "kitaplarForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitaplarForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitaplarForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:47:07.55Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "uyeKayitForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\uyeKayitForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\uyeKayitForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:39:41.716Z",
-              "EditorCaption": " [Tasar\u0131m]"
+              "WhenOpened": "2026-01-12T15:25:32.771Z",
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -193,229 +183,90 @@
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.cs [Tasar\u0131m]",
               "RelativeToolTip": "kutuphaneProjesi\\UI\\YonetimForm.cs [Tasar\u0131m]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T14:21:55.788Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "UyePanelForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyePanelForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyePanelForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:47:13.261Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "UyelerForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyelerForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyelerForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T05:47:11.35Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "istatistikForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\istatistikForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\istatistikForm.cs",
-              "ViewState": "AgIAABoAAAAAAAAAAAAewB4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T18:16:36.131Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "istatistikForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\istatistikForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\istatistikForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T07:39:59.753Z",
+              "WhenOpened": "2026-02-04T12:02:13.44Z",
               "EditorCaption": " [Tasar\u0131m]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "islemlerForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
-              "ViewState": "AgIAAEIAAAAAAAAAAAAYwEwAAAAjAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T17:39:39.835Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "islemlerForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\islemlerForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\islemlerForm.cs",
-              "ViewState": "AgIAAE8AAAAAAAAAAAAWwGcAAAADAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T14:21:42.144Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\Form1.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\Form1.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAYwBMAAAAaAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T11:01:47.598Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "uyelerDAL.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\uyelerDAL.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\uyelerDAL.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\uyelerDAL.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\DAL\\uyelerDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T11:05:15.336Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
               "Title": "kitaplarDAL.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\kitaplarDAL.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\kitaplarDAL.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\kitaplarDAL.cs",
               "RelativeToolTip": "kutuphaneProjesi\\DAL\\kitaplarDAL.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAgwDIAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAE0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T16:10:47.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 9,
               "Title": "istatistikDAL.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\istatistikDAL.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\istatistikDAL.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\istatistikDAL.cs",
               "RelativeToolTip": "kutuphaneProjesi\\DAL\\istatistikDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAACwAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAAFgAAAAAAAAAAAAkwCgAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T18:15:01.571Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 0,
               "Title": "islemlerDAL.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\islemlerDAL.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\islemlerDAL.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\islemlerDAL.cs",
               "RelativeToolTip": "kutuphaneProjesi\\DAL\\islemlerDAL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAH0AAAAxAAAAAAAAAA==",
+              "ViewState": "AgIAADcAAAAAAAAAAIAwwEoAAAAYAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T14:19:39.214Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 10,
               "Title": "DB.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\DB.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\DB.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\DB.cs",
               "RelativeToolTip": "kutuphaneProjesi\\DAL\\DB.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-12T15:35:40.809Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "uyelerBLL.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\uyelerBLL.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\uyelerBLL.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\uyelerBLL.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\BLL\\uyelerBLL.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAAwB4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "kitapEkleForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitapEkleForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitapEkleForm.cs",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAcwIoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:34:32.776Z",
+              "WhenOpened": "2026-01-14T12:21:24.522Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "kitaplarBLL.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAzwB0AAAAuAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\Form1.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\Form1.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAwwC0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T16:12:14.851Z",
+              "WhenOpened": "2026-01-12T11:01:47.598Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
-              "Title": "islemlerBLL.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\islemlerBLL.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\islemlerBLL.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\islemlerBLL.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\BLL\\islemlerBLL.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T14:20:14.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "islemlerForm.cs [Tasar\u0131m]",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\islemlerForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs [Tasar\u0131m]",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\islemlerForm.cs [Tasar\u0131m]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-15T06:35:30.057Z",
-              "EditorCaption": " [Tasar\u0131m]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "UyePanelForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyePanelForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyePanelForm.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAlwCEAAAAZAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T19:13:21.874Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 3,
               "Title": "Form1.cs [Tasar\u0131m]",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\Form1.cs",
@@ -427,71 +278,338 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "uyePanelDAL.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\uyePanelDAL.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\uyePanelDAL.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\uyePanelDAL.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\DAL\\uyePanelDAL.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAYwCQAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T17:39:38.799Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "uyePanelBLL.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\uyePanelBLL.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\uyePanelBLL.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\uyePanelBLL.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\BLL\\uyePanelBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T17:40:50.146Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "uyelerDAL.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\uyelerDAL.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\DAL\\uyelerDAL.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\DAL\\uyelerDAL.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\DAL\\uyelerDAL.cs",
+              "ViewState": "AgIAAFkAAAAAAAAAAAAswB0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:05:15.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "uyelerBLL.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\uyelerBLL.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\uyelerBLL.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\uyelerBLL.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\BLL\\uyelerBLL.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:34:32.776Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "kitaplarBLL.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\BLL\\kitaplarBLL.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAYwCsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T16:12:14.851Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "islemlerBLL.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\islemlerBLL.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\BLL\\islemlerBLL.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\BLL\\islemlerBLL.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\BLL\\islemlerBLL.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T14:20:14.868Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "UyePanelForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyePanelForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyePanelForm.cs",
+              "ViewState": "AgIAACYAAAAAAAAAAADwv14AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-14T19:13:21.874Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "UyePanelForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyePanelForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyePanelForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyePanelForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T19:09:26.369Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\Form1.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.Designer.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\Form1.Designer.cs",
+              "ViewState": "AgIAAHAAAAAAAAAAAAD4v38AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T11:01:09.018Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "islemlerForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\islemlerForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\islemlerForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T12:28:57.493Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "kitapEkleForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitapEkleForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitapEkleForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T18:30:18.25Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "UyelerForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyelerForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyelerForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T09:08:10.914Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "istatistikForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.Designer.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\istatistikForm.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.Designer.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\istatistikForm.Designer.cs",
+              "ViewState": "AgIAAFYBAAAAAAAAAAAAwHMBAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T17:44:25.68Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "istatistikForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\istatistikForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\istatistikForm.cs",
+              "ViewState": "AgIAAIEAAAAAAAAAAAAAwJsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T12:33:39.25Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 22,
+              "Title": "istatistikForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\istatistikForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\istatistikForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\istatistikForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T17:24:39.006Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "islemlerForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\islemlerForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\islemlerForm.cs",
+              "ViewState": "AgIAAKEAAAAAAAAAAAAAAL0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T08:50:30.352Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "kitaplarForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitaplarForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitaplarForm.cs",
+              "ViewState": "AgIAAD8AAAAAAAAAAAAmwF0AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-05T13:40:51.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "kitaplarForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitaplarForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitaplarForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T13:28:18.721Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\Program.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\Program.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\Program.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:27:27.356Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
               "Title": "YonetimForm.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\YonetimForm.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.cs",
               "RelativeToolTip": "kutuphaneProjesi\\UI\\YonetimForm.cs",
-              "ViewState": "AgIAADAAAAAAAAAAAAAtwEMAAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAFcAAAAAAAAAAAAYwHMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T14:21:58.182Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
-              "Title": "YonetimForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
-              "ViewState": "AgIAAG0AAAAAAAAAAIAwwHUAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 29,
+              "Title": "uyeKayitForm.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\uyeKayitForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\uyeKayitForm.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T10:54:49.17Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "kitapEkleForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitapEkleForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitapEkleForm.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T12:21:24.522Z",
+              "WhenOpened": "2026-01-14T19:22:21.373Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 30,
+              "Title": "uyeKayitForm.cs [Tasar\u0131m]",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\uyeKayitForm.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs [Tasar\u0131m]",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\uyeKayitForm.cs [Tasar\u0131m]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-02-04T19:38:43.666Z",
+              "EditorCaption": " [Tasar\u0131m]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "islemlerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\islemlerForm.Designer.cs",
+              "ViewState": "AgIAAEQAAAAAAAAAAAArwEoAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-15T17:39:39.835Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "UyelerForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAmwBMAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-12T15:25:46.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
               "Title": "kitaplarForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.Designer.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitaplarForm.Designer.cs",
               "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.Designer.cs",
               "RelativeToolTip": "kutuphaneProjesi\\UI\\kitaplarForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFkAAAABAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAuwBYAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-14T12:24:01.975Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
-              "Title": "kitaplarForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitaplarForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\kitaplarForm.cs",
-              "ViewState": "AgIAADQAAAAAAAAAAAAQwEQAAAAmAAAAAAAAAA==",
+              "DocumentIndex": 34,
+              "Title": "YonetimForm.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
+              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
+              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
+              "RelativeToolTip": "kutuphaneProjesi\\UI\\YonetimForm.Designer.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAIAwwA4AAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T12:12:59.517Z"
+              "WhenOpened": "2026-01-12T10:54:49.17Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 36,
               "Title": "kitaplarForm.resx",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitaplarForm.resx",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitaplarForm.resx",
@@ -503,7 +621,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 35,
               "Title": "kitapEkleForm.Designer.cs",
               "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\kitapEkleForm.Designer.cs",
               "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\kitapEkleForm.Designer.cs",
@@ -512,68 +630,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-01-15T00:17:58.819Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 31,
-              "Title": "uyeKayitForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\uyeKayitForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\uyeKayitForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\uyeKayitForm.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAzwCoAAAANAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-14T19:22:21.373Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 32,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\Program.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\Program.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\Program.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:27:27.356Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
-              "Title": "UyelerForm.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyelerForm.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAJAAAAASAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:25:46.954Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "UyelerForm.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\UyelerForm.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\UyelerForm.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\UyelerForm.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAgwC4AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T15:25:32.771Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 33,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "kutuphaneProjesi\\UI\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\UI\\Form1.Designer.cs",
-              "RelativeToolTip": "kutuphaneProjesi\\UI\\Form1.Designer.cs",
-              "ViewState": "AgIAABYAAAAAAAAAAADwv54AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-01-12T11:01:09.018Z",
               "EditorCaption": ""
             }
           ]

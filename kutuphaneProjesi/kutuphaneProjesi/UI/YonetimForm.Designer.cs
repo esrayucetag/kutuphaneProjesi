@@ -35,21 +35,21 @@
             panelIcerik.Dock = DockStyle.Fill;
             panelIcerik.Location = new Point(0, 0);
             panelIcerik.Name = "panelIcerik";
-            panelIcerik.Size = new Size(900, 500);
+            panelIcerik.Size = new Size(1382, 653);
             panelIcerik.TabIndex = 0;
             // 
             // panelContent
             // 
-            panelContent.BackColor = SystemColors.ControlLight;
+            panelContent.BackColor = Color.FromArgb(188, 189, 203);
             panelContent.Dock = DockStyle.Fill;
             panelContent.Location = new Point(150, 0);
             panelContent.Name = "panelContent";
-            panelContent.Size = new Size(750, 500);
+            panelContent.Size = new Size(1232, 653);
             panelContent.TabIndex = 0;
             // 
             // panelMenu
             // 
-            panelMenu.BackColor = SystemColors.ActiveBorder;
+            panelMenu.BackColor = Color.FromArgb(88, 98, 135);
             panelMenu.Controls.Add(button1);
             panelMenu.Controls.Add(btnUyeler);
             panelMenu.Controls.Add(btnKitaplar);
@@ -58,7 +58,7 @@
             panelMenu.Dock = DockStyle.Left;
             panelMenu.Location = new Point(0, 0);
             panelMenu.Name = "panelMenu";
-            panelMenu.Size = new Size(150, 500);
+            panelMenu.Size = new Size(150, 653);
             panelMenu.TabIndex = 1;
             // 
             // button1
@@ -120,7 +120,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(900, 500);
+            ClientSize = new Size(1382, 653);
             Controls.Add(panelIcerik);
             Name = "YonetimForm";
             Text = "Yönetim Paneli";

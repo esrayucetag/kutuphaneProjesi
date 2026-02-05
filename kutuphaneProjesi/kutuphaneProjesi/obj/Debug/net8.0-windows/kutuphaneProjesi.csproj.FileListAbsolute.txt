@@ -37,3 +37,6 @@ C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\obj\Debug\ne
 C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\obj\Debug\net8.0-windows\kutuphaneProjesi.pdb
 C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\obj\Debug\net8.0-windows\kutuphaneProjesi.genruntimeconfig.cache
 C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\obj\Debug\net8.0-windows\ref\kutuphaneProjesi.dll
+C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\bin\Debug\net8.0-windows\WinForms.DataVisualization.Utilities.dll
+C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\bin\Debug\net8.0-windows\WinForms.DataVisualization.dll
+C:\Users\LENOVO\Desktop\OOP_PROJE\kutuphaneProjesi\kutuphaneProjesi\obj\Debug\net8.0-windows\kutuphaneProjesi.Properties.Resources.resources

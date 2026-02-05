@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿#nullable disable
+using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace kutuphaneProjesi.DAL
@@ -8,15 +9,53 @@ namespace kutuphaneProjesi.DAL
         public DataTable UyeleriGetir()
         {
             DataTable dt = new DataTable();
-
             using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
             {
                 conn.Open();
-                MySqlDataAdapter da =
-                    new MySqlDataAdapter("SELECT * FROM users", conn);
+            
+                MySqlDataAdapter da = new MySqlDataAdapter(
+                    "SELECT userId, userTc, userAdSoyad, password, gecikmeSayisi FROM users WHERE karaListe=0",
+                    conn);
                 da.Fill(dt);
             }
             return dt;
+        }
+
+        public DataTable KaraListeGetir()
+        {
+            DataTable dt = new DataTable();
+            using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
+            {
+                conn.Open();
+
+                MySqlDataAdapter da = new MySqlDataAdapter(
+                    "SELECT userId, userTc, userAdSoyad, password, gecikmeSayisi FROM users WHERE karaListe=1",
+                    conn);
+                da.Fill(dt);
+            }
+            return dt;
+        }
+
+
+
+        public DataTable UyeAraTC(string tc, bool karaListeModu)
+        {
+            using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
+            {
+                conn.Open();
+                string sql = @"SELECT userId, userTc, userAdSoyad, password, gecikmeSayisi
+                               FROM users
+                               WHERE userTc = @tc AND karaListe = @k
+                               LIMIT 50";
+
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
+                cmd.Parameters.AddWithValue("@tc", tc);
+                cmd.Parameters.AddWithValue("@k", karaListeModu ? 1 : 0);
+
+                DataTable dt = new DataTable();
+                new MySqlDataAdapter(cmd).Fill(dt);
+                return dt;
+            }
         }
 
         public void UyeEkle(string tc, string ad, string sifre)
@@ -24,10 +63,9 @@ namespace kutuphaneProjesi.DAL
             using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(
-                    "INSERT INTO users (userTc,userAdSoyad,password) VALUES (@tc,@ad,@sifre)",
-                    conn);
-
+                string sql = @"INSERT INTO users (userTc, userAdSoyad, password, karaListe, gecikmeSayisi)
+                               VALUES (@tc, @ad, @sifre, 0, 0)";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@tc", tc);
                 cmd.Parameters.AddWithValue("@ad", ad);
                 cmd.Parameters.AddWithValue("@sifre", sifre);
@@ -40,8 +78,7 @@ namespace kutuphaneProjesi.DAL
             using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
             {
                 conn.Open();
-                MySqlCommand cmd =
-                    new MySqlCommand("DELETE FROM users WHERE userId=@id", conn);
+                MySqlCommand cmd = new MySqlCommand("DELETE FROM users WHERE userId=@id", conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.ExecuteNonQuery();
             }
@@ -52,10 +89,10 @@ namespace kutuphaneProjesi.DAL
             using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
             {
                 conn.Open();
-                MySqlCommand cmd = new MySqlCommand(
-                    "UPDATE users SET userTc=@tc,userAdSoyad=@ad,password=@sifre WHERE userId=@id",
-                    conn);
-
+                string sql = @"UPDATE users 
+                               SET userTc=@tc, userAdSoyad=@ad, password=@sifre
+                               WHERE userId=@id";
+                MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@id", id);
                 cmd.Parameters.AddWithValue("@tc", tc);
                 cmd.Parameters.AddWithValue("@ad", ad);
@@ -64,37 +101,62 @@ namespace kutuphaneProjesi.DAL
             }
         }
 
+        public void KaraListeyeAl(int id)
+        {
+            using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
+            {
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(
+                    "UPDATE users SET karaListe = 1 WHERE userId = @id", conn);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+        public void KaraListedenCikar(int id)
+        {
+            using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
+            {
+                conn.Open();
+                MySqlCommand cmd = new MySqlCommand(
+                    "UPDATE users SET karaListe = 0 WHERE userId = @id", conn);
+                cmd.Parameters.AddWithValue("@id", id);
+                cmd.ExecuteNonQuery();
+            }
+        }
+
+  
         public bool YeniUyeKaydet(string tc, string adSoyad, string sifre)
         {
             using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
             {
                 conn.Open();
-                string sql = "INSERT INTO users (userTc, userAdSoyad, password) VALUES (@tc, @ad, @sifre)";
+                string sql = @"INSERT INTO users (userTc, userAdSoyad, password, karaListe, gecikmeSayisi)
+                               VALUES (@tc, @ad, @sifre, 0, 0)";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@tc", tc);
                 cmd.Parameters.AddWithValue("@ad", adSoyad);
                 cmd.Parameters.AddWithValue("@sifre", sifre);
-
-                int sonuc = cmd.ExecuteNonQuery();
-                return sonuc > 0;
+                return cmd.ExecuteNonQuery() > 0;
             }
         }
+
         public DataTable UyeGecmisiGetir(int uId)
         {
             using (MySqlConnection conn = new MySqlConnection(DB.ConnStr))
             {
                 conn.Open();
                 string sql = @"SELECT b.kitapAd as 'Kitap Adı', i.verilisTarihi as 'Alış Tarihi', 
-                       i.teslimTarihi as 'İade Tarihi'
-                       FROM islemler i 
-                       JOIN books b ON i.kitapId = b.id 
-                       WHERE i.uyeId = @uId 
-                       ORDER BY i.verilisTarihi DESC";
+                                      i.teslimTarihi as 'İade Tarihi'
+                               FROM islemler i 
+                               JOIN books b ON i.kitapId = b.id 
+                               WHERE i.uyeId = @uId 
+                               ORDER BY i.verilisTarihi DESC";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 cmd.Parameters.AddWithValue("@uId", uId);
-                MySqlDataAdapter da = new MySqlDataAdapter(cmd);
+
                 DataTable dt = new DataTable();
-                da.Fill(dt);
+                new MySqlDataAdapter(cmd).Fill(dt);
                 return dt;
             }
         }

@@ -1,106 +1,189 @@
-﻿using kutuphaneProjesi.BLL;
-using kutuphaneProjesi.DAL;
-using System;
+﻿using System;
 using System.Data;
-using System.Threading.Tasks.Dataflow;
+using System.Drawing;
 using System.Windows.Forms;
+using kutuphaneProjesi.BLL;
 
 namespace kutuphaneProjesi.UI
 {
     public partial class islemlerForm : Form
     {
-        islemlerBLL bll = new islemlerBLL();
-        kitaplarBLL kBll = new kitaplarBLL();
-        int secilenUyeId = 0;
+        private readonly islemlerBLL bll = new islemlerBLL();
 
         public islemlerForm()
         {
             InitializeComponent();
+
+            this.Load += islemlerForm_Load;
+
+            txtUyeTc.TextChanged += txtUyeTC_TextChanged;
+            btnOduncVer.Click += btnOduncVer_Click;
+            btnTeslimAl.Click += btnTeslimAl_Click;
         }
 
-        private void islemlerForm_Load(object sender, EventArgs e)
+        private void islemlerForm_Load(object? sender, EventArgs e)
         {
             KitaplariYukle();
             IslemleriListele();
+            GridDuzelt();
         }
 
-        void KitaplariYukle()
+        private void KitaplariYukle()
         {
-            DataTable dt = kBll.KitaplariGetir();
-            dt.Columns.Add("Display", typeof(string), "id + ' - ' + kitapAd");
+            DataTable dt = bll.KitaplariListele();
+
+            if (!dt.Columns.Contains("Display"))
+                dt.Columns.Add("Display", typeof(string), "kitapAd");
+
             cmbKitap.DataSource = dt;
             cmbKitap.DisplayMember = "Display";
             cmbKitap.ValueMember = "id";
+
+            cmbKitap.AutoCompleteMode = AutoCompleteMode.SuggestAppend;
+            cmbKitap.AutoCompleteSource = AutoCompleteSource.ListItems;
+
+            cmbKitap.SelectedIndex = dt.Rows.Count > 0 ? 0 : -1;
         }
 
-        void IslemleriListele()
+        private void IslemleriListele()
         {
             dgvIslemler.DataSource = bll.IslemleriListele();
         }
 
-        private void txtUyeTC_TextChanged(object sender, EventArgs e)
+        private void GridDuzelt()
         {
- 
-            if (txtUyeTc.Text.Length == 11)
-            {
-                BLL.islemlerBLL bll = new BLL.islemlerBLL();
-                DataTable dt = bll.UyeBul(txtUyeTc.Text);
+            dgvIslemler.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgvIslemler.ReadOnly = true;
+            dgvIslemler.AllowUserToAddRows = false;
+            dgvIslemler.AllowUserToDeleteRows = false;
+            dgvIslemler.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
 
-                if (dt.Rows.Count > 0)
-                {
-                    label1.Text = dt.Rows[0]["userAdSoyad"].ToString(); 
-                    label2.Text = dt.Rows[0]["userId"].ToString();      
-                }
-                else
-                {
-                    label1.Text = "Üye Bulunamadı";
-                    label2.Text = "0";
-                }
+            dgvIslemler.MultiSelect = true;
+            dgvIslemler.RowHeadersVisible = false;
+
+            dgvIslemler.EnableHeadersVisualStyles = false;
+            dgvIslemler.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(36, 47, 61);
+            dgvIslemler.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dgvIslemler.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+
+            dgvIslemler.DefaultCellStyle.SelectionBackColor = Color.FromArgb(191, 219, 254);
+            dgvIslemler.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            if (dgvIslemler.Columns.Contains("id")) dgvIslemler.Columns["id"].HeaderText = "ID";
+            if (dgvIslemler.Columns.Contains("userAdSoyad")) dgvIslemler.Columns["userAdSoyad"].HeaderText = "Üye";
+            if (dgvIslemler.Columns.Contains("kitapAd")) dgvIslemler.Columns["kitapAd"].HeaderText = "Kitap";
+            if (dgvIslemler.Columns.Contains("verilisTarihi")) dgvIslemler.Columns["verilisTarihi"].HeaderText = "Alış";
+            if (dgvIslemler.Columns.Contains("teslimTarihi")) dgvIslemler.Columns["teslimTarihi"].HeaderText = "Son Teslim";
+
+            if (dgvIslemler.Columns.Contains("kitapId"))
+                dgvIslemler.Columns["kitapId"].Visible = false;
+        }
+
+        private void txtUyeTC_TextChanged(object? sender, EventArgs e)
+        {
+            string tc = txtUyeTc.Text.Trim();
+
+            if (tc.Length != 11)
+            {
+                label1.Text = "";
+                label2.Text = "0";
+                return;
+            }
+
+            DataTable dt = bll.UyeBul(tc);
+
+            if (dt.Rows.Count > 0)
+            {
+                label1.Text = dt.Rows[0]["userAdSoyad"].ToString();
+                label2.Text = dt.Rows[0]["userId"].ToString();
+            }
+            else
+            {
+                label1.Text = "Üye Bulunamadı";
+                label2.Text = "0";
             }
         }
 
-        private void btnTeslimAl_Click(object sender, EventArgs e)
-        {
-            if (dgvIslemler.SelectedRows.Count > 0)
-            {
-                int islemId = Convert.ToInt32(dgvIslemler.CurrentRow.Cells["id"].Value);
-                int kitapId = Convert.ToInt32(dgvIslemler.CurrentRow.Cells["kitapId"].Value);
-                bll.TeslimAl(islemId, kitapId);
-                MessageBox.Show("Kitap geri alındı.");
-                IslemleriListele();
-            }
-        }
-
-        private void btnOduncVer_Click_1(object sender, EventArgs e)
+        private void btnOduncVer_Click(object? sender, EventArgs e)
         {
             try
             {
-                int uId = Convert.ToInt32(label2.Text);
-                int kId = Convert.ToInt32(cmbKitap.SelectedValue);
-
-                DateTime alindigiTarih = dtpVerilisTarihi.Value; 
-
-                BLL.islemlerBLL bll = new BLL.islemlerBLL();
-                if (bll.OduncVer(uId, kId, alindigiTarih))
+                if (!int.TryParse(label2.Text, out int uId) || uId <= 0)
                 {
-                    MessageBox.Show("İşlem Başarılı! \nKitap Alış: " + alindigiTarih.ToShortDateString() +
-                                    "\nSon Teslim: " + alindigiTarih.AddDays(15).ToShortDateString());
+                    MessageBox.Show("Geçerli bir üye TC giriniz.");
+                    return;
+                }
+
+                if (!int.TryParse(cmbKitap.SelectedValue?.ToString(), out int kId) || kId <= 0)
+                {
+                    MessageBox.Show("Lütfen geçerli bir kitap seçiniz.");
+                    return;
+                }
+
+                DateTime alindigiTarih = dtpVerilisTarihi.Value;
+
+                int aktif = bll.AktifOduncSayisi(uId);
+                if (aktif >= 3)
+                {
+                    MessageBox.Show("Bu üyede zaten 3 kitap var. Daha fazla ödünç verilemez.");
+                    return;
+                }
+
+                var durum = bll.UyeDurumGetir(uId);
+                if (durum.karaListe == 1)
+                {
+                    MessageBox.Show("Bu üye KARA LİSTEDE! Ödünç verilemez.");
+                    return;
+                }
+
+                bool ok = bll.OduncVer(uId, kId, alindigiTarih);
+
+                if (ok)
+                {
+                    MessageBox.Show(
+                        "İşlem Başarılı!\n" +
+                        "Kitap Alış: " + alindigiTarih.ToShortDateString() + "\n" +
+                        "Son Teslim: " + alindigiTarih.AddDays(14).ToShortDateString()
+                    );
+
+                    IslemleriListele();
+                    GridDuzelt();
+                }
+                else
+                {
+                    MessageBox.Show("Ödünç verme işlemi başarısız (stok yok / kara liste / hata).");
                 }
             }
-            catch
+            catch (Exception ex)
             {
-                MessageBox.Show("Lütfen üye ve kitap seçimini kontrol edin.");
+                MessageBox.Show("Hata: " + ex.Message);
             }
         }
-        private void islemlerForm_Load_1(object sender, EventArgs e)
-        {
-            BLL.islemlerBLL bll = new BLL.islemlerBLL();
-            dgvIslemler.DataSource = bll.IslemleriListele();
-            cmbKitap.DataSource = bll.KitaplariListele();
-            cmbKitap.DisplayMember = "kitapAd";
-            cmbKitap.ValueMember = "id";
-        }
 
-   
+        private void btnTeslimAl_Click(object? sender, EventArgs e)
+        {
+            if (dgvIslemler.SelectedRows.Count == 0)
+            {
+                MessageBox.Show("Lütfen listeden en az 1 işlem seçin.");
+                return;
+            }
+
+            if (MessageBox.Show(
+                $"Seçili {dgvIslemler.SelectedRows.Count} işlem teslim alındı olarak işaretlenecek. Onaylıyor musunuz?",
+                "Onay", MessageBoxButtons.YesNo, MessageBoxIcon.Question) != DialogResult.Yes)
+                return;
+
+            foreach (DataGridViewRow row in dgvIslemler.SelectedRows)
+            {
+                int islemId = Convert.ToInt32(row.Cells["id"].Value);
+                int kitapId = Convert.ToInt32(row.Cells["kitapId"].Value);
+
+                bll.TeslimAl(islemId, kitapId);
+            }
+
+            MessageBox.Show("Seçili işlemler teslim alındı.");
+            IslemleriListele();
+            GridDuzelt();
+        }
     }
 }

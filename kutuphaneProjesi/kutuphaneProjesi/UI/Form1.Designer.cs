@@ -42,10 +42,11 @@
             // hosgeldinLabel
             // 
             hosgeldinLabel.AutoSize = true;
-            hosgeldinLabel.ForeColor = SystemColors.WindowText;
-            hosgeldinLabel.Location = new Point(302, 81);
+            hosgeldinLabel.Font = new Font("Verdana", 12F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            hosgeldinLabel.ForeColor = Color.MidnightBlue;
+            hosgeldinLabel.Location = new Point(202, 39);
             hosgeldinLabel.Name = "hosgeldinLabel";
-            hosgeldinLabel.Size = new Size(235, 40);
+            hosgeldinLabel.Size = new Size(395, 50);
             hosgeldinLabel.TabIndex = 0;
             hosgeldinLabel.Text = "Kütüphane Sistemine Hoşgeldiniz!\r\nLütfen giriş yapın.";
             // 
@@ -54,7 +55,7 @@
             kullaniciAdTextBox.ForeColor = SystemColors.WindowText;
             kullaniciAdTextBox.Location = new Point(412, 160);
             kullaniciAdTextBox.Name = "kullaniciAdTextBox";
-            kullaniciAdTextBox.Size = new Size(125, 27);
+            kullaniciAdTextBox.Size = new Size(157, 27);
             kullaniciAdTextBox.TabIndex = 1;
             // 
             // sifreTextBox
@@ -62,35 +63,38 @@
             sifreTextBox.ForeColor = SystemColors.WindowText;
             sifreTextBox.Location = new Point(412, 212);
             sifreTextBox.Name = "sifreTextBox";
-            sifreTextBox.Size = new Size(125, 27);
+            sifreTextBox.Size = new Size(157, 27);
             sifreTextBox.TabIndex = 2;
             sifreTextBox.UseSystemPasswordChar = true;
             // 
             // kullaniciAdLbl
             // 
             kullaniciAdLbl.AutoSize = true;
-            kullaniciAdLbl.ForeColor = SystemColors.WindowText;
-            kullaniciAdLbl.Location = new Point(297, 163);
+            kullaniciAdLbl.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            kullaniciAdLbl.ForeColor = SystemColors.HotTrack;
+            kullaniciAdLbl.Location = new Point(261, 160);
             kullaniciAdLbl.Name = "kullaniciAdLbl";
-            kullaniciAdLbl.Size = new Size(109, 20);
+            kullaniciAdLbl.Size = new Size(126, 23);
             kullaniciAdLbl.TabIndex = 3;
             kullaniciAdLbl.Text = "KULLANICI ADI";
             // 
             // sifreLbl
             // 
             sifreLbl.AutoSize = true;
-            sifreLbl.ForeColor = SystemColors.WindowText;
-            sifreLbl.Location = new Point(361, 215);
+            sifreLbl.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            sifreLbl.ForeColor = SystemColors.HotTrack;
+            sifreLbl.Location = new Point(340, 213);
             sifreLbl.Name = "sifreLbl";
-            sifreLbl.Size = new Size(45, 20);
+            sifreLbl.Size = new Size(53, 23);
             sifreLbl.TabIndex = 4;
             sifreLbl.Text = "ŞİFRE";
             // 
             // yoneticiGirisButton
             // 
-            yoneticiGirisButton.BackColor = Color.SandyBrown;
-            yoneticiGirisButton.ForeColor = SystemColors.WindowText;
-            yoneticiGirisButton.Location = new Point(447, 312);
+            yoneticiGirisButton.BackColor = SystemColors.ButtonFace;
+            yoneticiGirisButton.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            yoneticiGirisButton.ForeColor = SystemColors.MenuHighlight;
+            yoneticiGirisButton.Location = new Point(447, 295);
             yoneticiGirisButton.Name = "yoneticiGirisButton";
             yoneticiGirisButton.Size = new Size(90, 54);
             yoneticiGirisButton.TabIndex = 5;
@@ -100,9 +104,10 @@
             // 
             // uyeGirisButton
             // 
-            uyeGirisButton.BackColor = SystemColors.ActiveCaption;
-            uyeGirisButton.ForeColor = SystemColors.WindowText;
-            uyeGirisButton.Location = new Point(332, 312);
+            uyeGirisButton.BackColor = SystemColors.ButtonFace;
+            uyeGirisButton.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            uyeGirisButton.ForeColor = SystemColors.MenuHighlight;
+            uyeGirisButton.Location = new Point(327, 295);
             uyeGirisButton.Name = "uyeGirisButton";
             uyeGirisButton.Size = new Size(90, 54);
             uyeGirisButton.TabIndex = 6;
@@ -112,9 +117,10 @@
             // 
             // buttonKayit
             // 
-            buttonKayit.BackColor = Color.White;
-            buttonKayit.ForeColor = Color.Red;
-            buttonKayit.Location = new Point(391, 440);
+            buttonKayit.BackColor = SystemColors.ButtonFace;
+            buttonKayit.Font = new Font("Segoe UI", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            buttonKayit.ForeColor = Color.Brown;
+            buttonKayit.Location = new Point(388, 441);
             buttonKayit.Name = "buttonKayit";
             buttonKayit.Size = new Size(94, 29);
             buttonKayit.TabIndex = 7;
@@ -125,10 +131,11 @@
             // label1
             // 
             label1.AutoSize = true;
-            label1.ForeColor = SystemColors.WindowText;
+            label1.Font = new Font("Segoe UI Semibold", 9F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point, 162);
+            label1.ForeColor = Color.Navy;
             label1.Location = new Point(327, 407);
             label1.Name = "label1";
-            label1.Size = new Size(210, 20);
+            label1.Size = new Size(218, 20);
             label1.TabIndex = 8;
             label1.Text = "sisteme kayıtlı üyeliğiniz yoksa";
             // 
@@ -136,7 +143,7 @@
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
+            BackColor = Color.FromArgb(188, 189, 203);
             ClientSize = new Size(868, 596);
             Controls.Add(label1);
             Controls.Add(buttonKayit);

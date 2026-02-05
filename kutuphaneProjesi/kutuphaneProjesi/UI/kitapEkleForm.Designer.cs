@@ -37,6 +37,7 @@
             colTur = new DataGridViewTextBoxColumn();
             groupBox1 = new GroupBox();
             btnTopluKaydet = new Button();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)dgvTopluEkle).BeginInit();
             groupBox1.SuspendLayout();
             SuspendLayout();
@@ -51,9 +52,11 @@
             // 
             // btnGeri
             // 
-            btnGeri.BackColor = Color.Red;
+            btnGeri.BackColor = SystemColors.ButtonFace;
             btnGeri.FlatStyle = FlatStyle.Popup;
-            btnGeri.Location = new Point(12, 12);
+            btnGeri.Font = new Font("Segoe UI Semibold", 10.2F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btnGeri.ForeColor = Color.FromArgb(192, 0, 0);
+            btnGeri.Location = new Point(12, 24);
             btnGeri.Name = "btnGeri";
             btnGeri.Size = new Size(49, 31);
             btnGeri.TabIndex = 9;
@@ -63,12 +66,14 @@
             // 
             // dgvTopluEkle
             // 
+            dgvTopluEkle.BackgroundColor = Color.AliceBlue;
             dgvTopluEkle.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvTopluEkle.Columns.AddRange(new DataGridViewColumn[] { colAd, colYazar, colAdet, colTur });
-            dgvTopluEkle.Location = new Point(0, 39);
+            dgvTopluEkle.GridColor = Color.AliceBlue;
+            dgvTopluEkle.Location = new Point(0, 61);
             dgvTopluEkle.Name = "dgvTopluEkle";
             dgvTopluEkle.RowHeadersWidth = 51;
-            dgvTopluEkle.Size = new Size(818, 280);
+            dgvTopluEkle.Size = new Size(869, 350);
             dgvTopluEkle.TabIndex = 12;
             dgvTopluEkle.KeyDown += dgvTopluEkle_KeyDown;
             // 
@@ -102,31 +107,45 @@
             // 
             // groupBox1
             // 
+            groupBox1.Controls.Add(label1);
             groupBox1.Controls.Add(dgvTopluEkle);
             groupBox1.Controls.Add(label2);
-            groupBox1.Location = new Point(12, 49);
+            groupBox1.Location = new Point(12, 61);
             groupBox1.Name = "groupBox1";
-            groupBox1.Size = new Size(895, 281);
+            groupBox1.Size = new Size(869, 409);
             groupBox1.TabIndex = 13;
             groupBox1.TabStop = false;
-            groupBox1.Text = "çoklu kitap eklemek için aşağıdakı kutuya yapıstırınız.";
             // 
             // btnTopluKaydet
             // 
-            btnTopluKaydet.Location = new Point(679, 354);
+            btnTopluKaydet.BackColor = SystemColors.ButtonFace;
+            btnTopluKaydet.Font = new Font("Segoe UI Semibold", 10.8F, FontStyle.Bold, GraphicsUnit.Point, 162);
+            btnTopluKaydet.ForeColor = SystemColors.HotTrack;
+            btnTopluKaydet.Location = new Point(718, 488);
             btnTopluKaydet.Name = "btnTopluKaydet";
             btnTopluKaydet.Size = new Size(168, 67);
             btnTopluKaydet.TabIndex = 13;
             btnTopluKaydet.Text = "LİSTEYİ SİSTEME AKTAR";
-            btnTopluKaydet.UseVisualStyleBackColor = true;
+            btnTopluKaydet.UseVisualStyleBackColor = false;
             btnTopluKaydet.Click += btnTopluKaydet_Click;
+            // 
+            // label1
+            // 
+            label1.Font = new Font("Segoe UI", 10.2F, FontStyle.Italic, GraphicsUnit.Point, 0);
+            label1.ForeColor = Color.MidnightBlue;
+            label1.Location = new Point(0, 0);
+            label1.Name = "label1";
+            label1.Size = new Size(869, 58);
+            label1.TabIndex = 13;
+            label1.Text = "Çoklu kitap eklemek için aşağıdaki kutuya  4 parametre yanyana virgül ve boslukla ayrılmış olcak sekilde ilgili paragrafı yapıstırınız. Sonrasında listeyi sisteme aktar butonu ile verileri kaydediniz.";
+            label1.Click += label1_Click;
             // 
             // kitapEkleForm
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
-            BackColor = SystemColors.ControlLight;
-            ClientSize = new Size(930, 558);
+            BackColor = Color.FromArgb(188, 189, 203);
+            ClientSize = new Size(990, 629);
             Controls.Add(btnTopluKaydet);
             Controls.Add(groupBox1);
             Controls.Add(btnGeri);
@@ -149,5 +168,6 @@
         private DataGridViewTextBoxColumn colYazar;
         private DataGridViewTextBoxColumn colAdet;
         private DataGridViewTextBoxColumn colTur;
+        private Label label1;
     }
 }

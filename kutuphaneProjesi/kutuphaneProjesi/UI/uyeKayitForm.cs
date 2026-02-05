@@ -42,5 +42,10 @@ namespace kutuphaneProjesi.UI
                 this.Close(); // Kayıt formunu kapatır
             }
         }
+
+        private void lblTc_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

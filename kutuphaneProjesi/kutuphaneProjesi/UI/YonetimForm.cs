@@ -9,23 +9,47 @@ namespace kutuphaneProjesi.UI
         public YonetimForm()
         {
             InitializeComponent();
-        }
+            // Çıkış butonu sabit kırmızı
+            button1.BackColor = Color.Red;
+            button1.ForeColor = Color.White;
+            button1.FlatStyle = FlatStyle.Flat;
+            button1.FlatAppearance.BorderSize = 0;
 
-        // Menüde aktif butonu vurgular
+            // Hover efektleri (menü butonları)
+            ButonHover(btnUyeler);
+            ButonHover(btnKitaplar);
+            ButonHover(btnIslemler);
+            ButonHover(btnIstatistik);
+
+            // Çıkış hover (kırmızının tonu biraz değişsin)
+            button1.MouseEnter += (s, e) => button1.BackColor = Color.DarkRed;
+            button1.MouseLeave += (s, e) => button1.BackColor = Color.Red;
+
+        }
         private void AktifButon(Button aktif)
         {
             foreach (Control ctrl in panelMenu.Controls)
             {
                 if (ctrl is Button btn)
                 {
+                    // Çıkış butonuna dokunma
+                    if (btn == button1) continue;
+
                     btn.BackColor = Color.Gainsboro;
+                    btn.ForeColor = Color.Black;
                     btn.Font = new Font(btn.Font, FontStyle.Regular);
                 }
             }
 
-            aktif.BackColor = Color.LightSteelBlue;
-            aktif.Font = new Font(aktif.Font, FontStyle.Bold);
+            // Aktif buton çıkış değilse vurgula
+            if (aktif != button1)
+            {
+                aktif.BackColor = Color.LightSteelBlue;
+                aktif.ForeColor = Color.Black;
+                aktif.Font = new Font(aktif.Font, FontStyle.Bold);
+            }
         }
+
 
         // Sağ tarafa form yükler
         private void FormGetir(Form frm)
@@ -68,5 +92,24 @@ namespace kutuphaneProjesi.UI
         {
             this.Hide();
         }
+        private void ButonHover(Button btn)
+        {
+            btn.FlatStyle = FlatStyle.Flat;
+            btn.FlatAppearance.BorderSize = 0;
+
+            btn.MouseEnter += (s, e) =>
+            {
+                // aktif butonsa bozulmasın
+                if (btn.BackColor != Color.LightSteelBlue)
+                    btn.BackColor = Color.LightGray;
+            };
+
+            btn.MouseLeave += (s, e) =>
+            {
+                if (btn.BackColor != Color.LightSteelBlue)
+                    btn.BackColor = Color.Gainsboro;
+            };
+        }
+
     }
 }

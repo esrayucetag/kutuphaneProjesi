@@ -1,85 +1,133 @@
 ﻿using System;
+using System.Drawing;
 using System.Windows.Forms;
-using kutuphaneProjesi.BLL; // BLL katmanına erişim sağlar
+using kutuphaneProjesi.BLL;
 
 namespace kutuphaneProjesi.UI
 {
     public partial class kitaplarForm : Form
     {
-        // Kontrol mekanizmamızı çağırıyoruz
-        kitaplarBLL bll = new kitaplarBLL();
+        private readonly kitaplarBLL bll = new kitaplarBLL();
 
         public kitaplarForm()
         {
             InitializeComponent();
         }
 
-        // Tabloyu (DataGridView) güncellemek için kullandığımız metod
-        public void Listele()
+
+
+        private void Listele()
         {
-            // dgvKitaplar isminin tasarımda tanımlı olduğundan emin olun
             dgvKitaplar.DataSource = bll.KitaplariGetir();
         }
 
-        private void kitaplarForm_Load(object sender, EventArgs e)
+     
+        private void picAra_Click(object sender, EventArgs e)
         {
-            Listele(); // Sayfa ilk açıldığında verileri doldurur
+            string q = txtAra.Text.Trim();
+            dgvKitaplar.DataSource = bll.KitapAra(q);
+        }
+
+        private void txtAra_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.KeyCode == Keys.Enter)
+            {
+                picAra_Click(sender, e);
+                e.SuppressKeyPress = true;
+            }
+        }
+
+        private void picTemizle_Click(object sender, EventArgs e)
+        {
+            txtAra.Clear();
+            Listele();
         }
 
         private void btnYeniKitapEkle_Click(object sender, EventArgs e)
         {
-            // Yeni kitap ekleme penceresini açar
             kitapEkleForm frm = new kitapEkleForm();
-            frm.ShowDialog(); // Arkadaki sayfayı kilitler
-            Listele(); // Ekleme bittikten sonra listeyi otomatik tazeler
+            frm.ShowDialog();
+            Listele();
         }
 
         private void btnSil_Click(object sender, EventArgs e)
         {
-            // Tablodan bir satır seçili mi kontrol eder
-            if (dgvKitaplar.SelectedRows.Count > 0)
+            if (dgvKitaplar.SelectedRows.Count == 0)
             {
-                int id = Convert.ToInt32(dgvKitaplar.CurrentRow.Cells["id"].Value);
-                int mevcutAdet = Convert.ToInt32(dgvKitaplar.CurrentRow.Cells["adet"].Value);
+                MessageBox.Show("Lütfen satır seçin.");
+                return;
+            }
 
-                // Adet durumuna göre kullanıcıyı bilgilendirir
-                string mesaj = mevcutAdet > 1
-                    ? "Kitap adedi 1 azaltılacak. Onaylıyor musunuz?"
-                    : "Bu son kitap, kayıt tamamen silinecek. Onaylıyor musunuz?";
+            string giris = Microsoft.VisualBasic.Interaction.InputBox(
+                "Kaç adet silinsin?\nTamamen silmek için F veya FULL yazın.",
+                "Silme İşlemi",
+                "1");
 
-                if (MessageBox.Show(mesaj, "Silme Onayı", MessageBoxButtons.YesNo, MessageBoxIcon.Question) == DialogResult.Yes)
+            if (string.IsNullOrWhiteSpace(giris))
+                return;
+
+            foreach (DataGridViewRow row in dgvKitaplar.SelectedRows)
+            {
+                int id = Convert.ToInt32(row.Cells["id"].Value);
+                int adet = Convert.ToInt32(row.Cells["adet"].Value);
+
+                // FULL silme
+                if (giris.ToUpper() == "F" || giris.ToUpper() == "FULL")
                 {
-                    // BLL üzerinden adet düşürme veya silme işlemini tetikler
-                    bll.KitapEksilt(id, mevcutAdet);
-                    Listele(); // Listeyi günceller
+                    bll.KitapTamamenSil(id);
+                }
+                else
+                {
+                    if (int.TryParse(giris, out int dusulecek))
+                    {
+                        bll.KitapAdetDusur(id, adet, dusulecek);
+                    }
+                    else
+                    {
+                        MessageBox.Show("Geçersiz giriş!");
+                        return;
+                    }
                 }
             }
-            else
-            {
-                MessageBox.Show("Lütfen işlem yapmak için tablodan bir satır seçin.");
-            }
+
+            MessageBox.Show("İşlem tamamlandı.");
+            Listele();
         }
 
-        private void kitaplarForm_Load_1(object sender, EventArgs e)
+        private void StilGrid(DataGridView dgv)
         {
-            BLL.islemlerBLL bll = new BLL.islemlerBLL();
-            dgvKitaplar.DataSource = bll.KitaplariListele(); // Sadece BLL çağrısı
+            dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+            dgv.ReadOnly = true;
+            dgv.AllowUserToAddRows = false;
+            dgv.AllowUserToDeleteRows = false;
+            dgv.AllowUserToResizeRows = false;
+            dgv.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
+
+            dgv.BackgroundColor = Color.White;
+            dgv.BorderStyle = BorderStyle.None;
+            dgv.CellBorderStyle = DataGridViewCellBorderStyle.SingleHorizontal;
+            dgv.GridColor = Color.Gainsboro;
+
+            dgv.EnableHeadersVisualStyles = false;
+            dgv.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.None;
+            dgv.ColumnHeadersDefaultCellStyle.BackColor = Color.FromArgb(30, 41, 59);
+            dgv.ColumnHeadersDefaultCellStyle.ForeColor = Color.White;
+            dgv.ColumnHeadersDefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Bold);
+            dgv.ColumnHeadersHeight = 38;
+
+            dgv.DefaultCellStyle.Font = new Font("Segoe UI", 10, FontStyle.Regular);
+            dgv.DefaultCellStyle.SelectionBackColor = Color.FromArgb(191, 219, 254);
+            dgv.DefaultCellStyle.SelectionForeColor = Color.Black;
+
+            dgv.AlternatingRowsDefaultCellStyle.BackColor = Color.FromArgb(248, 250, 252);
+            dgv.RowTemplate.Height = 32;
         }
-        
-        public void KitaplariListele()
+
+        private void kitaplarForm_Load(object sender, EventArgs e)
         {
-            try
-            {
-                BLL.islemlerBLL bll = new BLL.islemlerBLL();
-                dgvKitaplar.DataSource = bll.KitaplariListele();
 
-                dgvKitaplar.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show("Kitaplar yüklenirken hata: " + ex.Message);
-            }
+            StilGrid(dgvKitaplar);
+            Listele();
         }
-
     }
 }

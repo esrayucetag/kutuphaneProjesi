@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "96hALKFPjns=",
+  "dgSpecHash": "2IJScyNBfD0=",
   "success": true,
   "projectFilePath": "C:\\Users\\LENOVO\\Desktop\\OOP_PROJE\\kutuphaneProjesi\\kutuphaneProjesi\\kutuphaneProjesi.csproj",
   "expectedPackageFiles": [
@@ -9,6 +9,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\k4os.compression.lz4\\1.3.8\\k4os.compression.lz4.1.3.8.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\k4os.compression.lz4.streams\\1.3.8\\k4os.compression.lz4.streams.1.3.8.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\k4os.hash.xxhash\\1.0.8\\k4os.hash.xxhash.1.0.8.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\microsoft.visualbasic\\10.3.0\\microsoft.visualbasic.10.3.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\mysql.data\\9.5.0\\mysql.data.9.5.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.configuration.configurationmanager\\8.0.0\\system.configuration.configurationmanager.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.diagnostics.eventlog\\8.0.0\\system.diagnostics.eventlog.8.0.0.nupkg.sha512",
@@ -16,6 +17,7 @@
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.cryptography.protecteddata\\8.0.0\\system.security.cryptography.protecteddata.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.security.permissions\\8.0.0\\system.security.permissions.8.0.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\system.windows.extensions\\8.0.0\\system.windows.extensions.8.0.0.nupkg.sha512",
+    "C:\\Users\\LENOVO\\.nuget\\packages\\winforms.datavisualization\\1.10.0\\winforms.datavisualization.1.10.0.nupkg.sha512",
     "C:\\Users\\LENOVO\\.nuget\\packages\\zstdsharp.port\\0.8.6\\zstdsharp.port.0.8.6.nupkg.sha512"
   ],
   "logs": []
