@@ -106,3 +106,38 @@ Kara listedeki üyeler ödünç alamaz
 TC + Şifre ile giriş
 
 Yönetici ve üye panelleri ayrıdır
+## 🎯 Projenin Amaçları
+
+Kütüphane yönetimini kolaylaştırmak
+
+Üyelerin kitap durumlarını takip edebilmesini sağlamak
+
+Veri analizleri ile kullanım istatistikleri üretmek
+
+Nesne yönelimli programlama pratiği kazanmak
+
+## 📈 Geliştirilebilecek Özellikler
+
+Mobil uygulama entegrasyonu
+
+E-posta hatırlatma sistemi
+
+Kitap rezervasyon sistemi
+
+QR kod ile ödünç alma
+
+Yetkilendirme sistemi genişletme
+
+## 🚀 Kurulum
+
+MySQL veritabanı oluşturulur
+
+Tablolar import edilir
+
+DB.ConnStr bağlantısı güncellenir
+
+Proje Visual Studio üzerinden çalıştırılır
+
+## 📌 Sonuç
+
+Bu proje, gerçek hayattaki kütüphane yönetim süreçlerini dijital ortama aktaran, katmanlı mimari prensiplerine uygun, kullanıcı dostu bir otomasyon sistemi olarak geliştirilmiştir.
